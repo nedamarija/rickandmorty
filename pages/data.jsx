@@ -19,10 +19,16 @@ const Data = () => {
           <div>
             <ul>
               <img src={character.image} />
-              <li>{character.name}</li>
+              <li>Name: {character.name}</li>
               <ul>
-                <li>{character.status}</li>
-                <li>{character.species}</li>
+                <li>
+                  <span style={{ fontWeight: 'bold' }}>Status:</span>{' '}
+                  {character.status}
+                </li>
+                <li>
+                  <span style={{ fontWeight: 'bold' }}>Species:</span>{' '}
+                  {character.species}
+                </li>
               </ul>
             </ul>
           </div>
