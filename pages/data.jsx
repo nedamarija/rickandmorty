@@ -13,7 +13,7 @@ const Data = () => {
 
   return (
     <div>
-      <h1>Hello Rick and Morty</h1>
+      <h1>Hello Rick and Neda</h1>
       {characters.map((character) => {
         return (
           <div>
